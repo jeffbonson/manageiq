@@ -5131,6 +5131,44 @@
       :feature_type: control
       :identifier: configured_system_console
 
+- :name: Automated Workflows
+  :description: Everything under Automated Workflows
+  :feature_type: node
+  :identifier: automated_workflow
+  :children:
+  - :name: Workflows
+    :description: Everything under Workflows
+    :feature_type: node
+    :identifier: automated_workflow_workflows
+    :children:
+    - :name: View
+      :description: View Workflows
+      :feature_type: view
+      :identifier: automated_workflow_workflows_view
+      :children:
+      - :name: List
+        :description: Display List of Workflows
+        :feature_type: view
+        :identifier: automated_workflow_workflows_show_list
+  - :name: Repositories
+    :description: Everything under Repositories
+    :feature_type: node
+    :identifier: automated_workflow_repositories
+    :children:
+    - :name: View
+      :description: View Workflows
+      :feature_type: view
+      :identifier: automated_workflow_repositories_view
+  - :name: Credentials
+    :description: Everything under Credentials
+    :feature_type: node
+    :identifier: automated_workflow_credentials
+    :children:
+    - :name: View
+      :description: View Workflows
+      :feature_type: view
+      :identifier: automated_workflow_credentials_view
+
 # Embedded Automation Manager
 - :name: Embedded Automation Manager
   :description: Everything under Ansible
