@@ -460,7 +460,7 @@
   :rbac_feature_name: embedded_configuration_script_source
   :startup: true
 - :name: automated_workflow_workflows
-  :description: Automation / Automated Workflow / Workflows
+  :description: Automation / Embedded Workflow / Workflows
   :url: /automated_workflow
   :rbac_feature_name: automated_workflow_workflows
   :startup: true
